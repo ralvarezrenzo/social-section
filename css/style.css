@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root{
+    /* primary */
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+
+    /* Neutral */
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+.bg-dark-magenta{
+    background: var(--very-dark-magenta);
+}
+.bg-grayish-magenta{
+    background: var(--light-grayish-magenta);
+}
+.color-dark-magenta{
+    color: var(--very-dark-magenta);
+}
+.color-white{
+    color: var(--white);
+}
+.color-soft-pink{
+    color: var(--soft-pink);
+}
+.color-grayish-magenta{
+    color: var(--dark-grayish-magenta);
+}
+.text-medium{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+}
+.text-bold{
+    font-weight: 700;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+.main__elements{
+    width: 85%;
+    max-width: 400px;
+}
+.headin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+.title{
+    font-size: 2.5rem;
+}
+.headin p {
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+}
+.stars{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.star{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.blog__coments{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 2.7rem;
+    border-radius: 1rem;
+    gap: 1.5rem;
+}
+.blog__user{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex */
+    gap: 1.9rem;
+}
+.blog__img img{
+    width: 50px;
+    border-radius: 50%;
+}
+.blog__coment p{
+    line-height: 1.6rem;
+}
+@media screen and (min-width : 992px){
+
+}
